@@ -1,5 +1,5 @@
-![Header](./header2.png)
-<b>Opens multiple different impact search engines at once</b>
+![Header](./header2.png)<br />
+<b>Click for free to support good causes</b>
 
 - ⚡ [Start the Search Engine](https://llarryyllarryy.github.io/Max-Impact-Search/?)
 <p align="center">
