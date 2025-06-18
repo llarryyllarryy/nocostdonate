@@ -1,0 +1,219 @@
+/* Grundlegende Typografie und Layout */
+body {
+    font-family: 'Lato', sans-serif; /* Eine moderne, gut lesbare Schriftart */
+    margin: 0;
+    padding: 0;
+    background-color: #f9fbfd; /* Sehr heller, fast weißer Hintergrund */
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* Header-Styling */
+header {
+    background-color: #ffffff;
+    color: #2c3e50;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #3498db; /* Ein ansprechendes Blau */
+}
+
+header p {
+    font-size: 1.1em;
+    max-width: 700px;
+    margin: 10px auto 0;
+    color: #555;
+}
+
+/* Hauptinhaltsbereich */
+main {
+    flex-grow: 1;
+    padding: 25px 20px;
+    max-width: 800px; /* Begrenzte Breite für die scrollbare Liste */
+    margin: 20px auto;
+}
+
+/* Links-Container Sektion */
+.links-container {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.scrollable-list {
+    max-height: 500px; /* **Feste Höhe für die scrollbare Liste** */
+    overflow-y: auto; /* **Macht die Liste vertikal scrollbar** */
+    padding-right: 15px; /* Platz für den Scrollbalken */
+}
+
+/* Optional: Scrollbar-Styling für Webkit-Browser (Chrome, Safari) */
+.scrollable-list::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollable-list::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.scrollable-list::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.scrollable-list::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/* Individuelles Link-Element */
+.link-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee; /* Trennlinie zwischen den Links */
+    transition: background-color 0.2s ease;
+}
+
+.link-item:last-child {
+    border-bottom: none; /* Kein Trennstrich nach dem letzten Element */
+}
+
+.link-item:hover {
+    background-color: #f5f5f5; /* Leichter Hintergrund beim Hover */
+}
+
+.link-content {
+    flex-grow: 1;
+    margin-right: 15px;
+}
+
+.link-content h3 {
+    margin: 0 0 5px 0;
+    color: #2980b9; /* Dunkleres Blau für den Namen */
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.link-content p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.link-item .donation-detail {
+    font-size: 0.8em;
+    color: #888;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.link-item a.button {
+    flex-shrink: 0; /* Verhindert, dass der Button schrumpft */
+    background-color: #2ecc71; /* Grüner Button */
+    color: white;
+    padding: 10px 18px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.2s ease;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.link-item a.button:hover {
+    background-color: #27ae60;
+}
+
+/* Nachricht bei keinen Links */
+.no-links-message {
+    text-align: center;
+    font-size: 1em;
+    color: #777;
+    padding: 15px;
+}
+
+/* Footer-Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #ffffff;
+    color: #777;
+    font-size: 0.85em;
+    border-top: 1px solid #eee;
+}
+
+/* Responsive Anpassungen */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    header p {
+        font-size: 1em;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    .links-container {
+        padding: 20px;
+    }
+
+    .scrollable-list {
+        max-height: 400px; /* Geringere Höhe auf kleineren Bildschirmen */
+    }
+
+    .link-item {
+        flex-direction: column; /* Stapelt Inhalt und Button untereinander */
+        align-items: flex-start; /* Links ausrichten */
+        padding: 15px 0;
+    }
+
+    .link-content {
+        margin-right: 0;
+        margin-bottom: 10px; /* Abstand zwischen Text und Button */
+    }
+
+    .link-item h3 {
+        font-size: 1.1em;
+    }
+
+    .link-item p {
+        font-size: 0.85em;
+    }
+
+    .link-item .donation-detail {
+        font-size: 0.75em;
+    }
+
+    .link-item a.button {
+        width: 100%; /* Button über volle Breite */
+        text-align: center;
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 500px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    .scrollable-list {
+        max-height: 350px; /* Noch geringere Höhe für Smartphones */
+    }
+}
