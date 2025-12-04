@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         {
             name: "Barkingmad",
   
-            url: "https://barkingmad.co.za/click-to-feed-2019-2/",
+            url: "https://barkingmadinc.org/click-feed/",
             donationInfo: "Support Pets 1."
         },
         {
