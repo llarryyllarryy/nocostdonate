@@ -21,7 +21,7 @@
 - [Online Radio](https://station.voscast.com/62927054b6621/) for [Youtube](https://www.youtube.com/channel/UCyc2T7knpQdlopgfMCwR_eA/playlists) or [Spotify](https://open.spotify.com/user/313iaxo6czaeitorqteioznc5zty?si=hmcEMAH5SvqMP2mdWP7gBg)
 
 <h3 align="left">Connect with me:</h3>
-<a href="https://twitch.tv/llarryyllarryy" target="blank">Twitch</a>
+<a href="https://twitch.tv/llarryyllarryy" target="blank"><img src="https://static-cdn.jtvnw.net/ttv-static-metadata/twitch_logo3.jpg" align="center" /></a>
 <p align="left">
 <a href="https://actionablethinking.substack.com/feed" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/rss.svg" alt="https://anchor.fm/s/939602ec/podcast/rss" height="30" width="40" /></a>
 </p>
