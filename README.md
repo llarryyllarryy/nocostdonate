@@ -6,7 +6,6 @@
 - ⚡ [Start the Search Engine](https://llarryyllarryy.github.io/Max-Impact-Search/?)
 
 - ⚡ [Book Summary Page](https://wowtop.eu/test/book/index.php)
-- ⚡ [Blog Aggregator](https://wowtop.eu/test/aggregator/)
   
 <!-- Markdown -->
 
